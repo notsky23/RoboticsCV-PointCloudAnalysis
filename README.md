@@ -47,12 +47,12 @@ b. Test your plane fitting on an example with outliers by running the command $p
 
 c.	Implement the function q1  c in questions.py: fit a plane using a ransac based method. You can test your implementation by running $python hw4.py q1 c in your terminal. What are the strengths and weaknesses of each approach?<br>
 
--	Strengths:
-  o	RANSAC is more robust to outliers compared to the other methods because it only considers a subset of points to fit the model and ignores the rest.
-  o	RANSAC can handle non-linear models and does not require the assumption of linearity.
--	Weaknesses:
-  o	RANSAC requires more computation time because it samples points and fits the model multiple times to obtain the best result.
-  o	The parameters used in RANSAC, such as the number of iterations and the inlier threshold, need to be carefully tuned to obtain a good result.
+-	Strengths:<br>
+  o	RANSAC is more robust to outliers compared to the other methods because it only considers a subset of points to fit the model and ignores the rest.<br>
+  o	RANSAC can handle non-linear models and does not require the assumption of linearity.<br>
+-	Weaknesses:<br>
+  o	RANSAC requires more computation time because it samples points and fits the model multiple times to obtain the best result.<br>
+  o	The parameters used in RANSAC, such as the number of iterations and the inlier threshold, need to be carefully tuned to obtain a good result.<br>
 
 ![image](https://user-images.githubusercontent.com/98131995/234906032-b4deda77-ea10-4117-b1e9-2ef3b7155b7a.png)<br><br>
 
