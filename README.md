@@ -83,4 +83,5 @@ b. Run $python hw4.py q4  b to test your implementation from part (a) on noisy d
 
 c. Implement the function q4 c to perform iterative closest point (ICP). Your implementation should get reasonably alignment on shuffled and noisy data: run $python hw4.py q4 c to test this.<br>
 
+<img src="https://user-images.githubusercontent.com/98131995/234916958-42ef7aa3-1755-4193-bcef-9d5e4075ad2c.png" width=60% height=60%><br>
 ![image](https://user-images.githubusercontent.com/98131995/234911356-7850710b-0b52-432c-9fa9-380bae1755cb.png)<br><br>
