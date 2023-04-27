@@ -47,7 +47,6 @@ b. Test your plane fitting on an example with outliers by running the command $p
 
 c.	Implement the function q1  c in questions.py: fit a plane using a ransac based method. You can test your implementation by running $python hw4.py q1 c in your terminal. What are the strengths and weaknesses of each approach?<br>
 
-![image](https://user-images.githubusercontent.com/98131995/234912850-c1756140-af14-4998-939f-0d999e44cc95.png)<br>
 <img src="https://user-images.githubusercontent.com/98131995/234912850-c1756140-af14-4998-939f-0d999e44cc95.png" width=50% height=50%><br><br>
 
 -	Strengths:<br>
