@@ -1,3 +1,15 @@
+# RoboticsCV-PointCloudAnalysis
+
+HW Guide: https://github.com/notsky23/RoboticsCV-PointCloudAnalysis/blob/master/hw4-v2.pdf.<br><br>
+
+## What is this practice about?<br>
+
+This module is a cross between computer vision and robotics. We will be using point clouds to help a robot analyze and make sense of it's surroundings.<br><br>
+
+In this module, we will be applying 2 algorithms to point clouds:<br>
+1. Random sample consensus (RANSAC)<br>
+2. Iterative closest point (ICP)<br><br>
+
 ## Installation Instructions
 Make sure you are using Python>=3.6.  We provide instructions that use conda as
 a virtual environment.  You are free to use another virtual environment (such as
