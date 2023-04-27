@@ -41,10 +41,20 @@ b. Test your plane fitting on an example with outliers by running the command $p
 
 -	The result of the plane fitting in part (b) with outliers is likely to be different from the result in part (a) without outliers. This is because in part (b), the input point cloud contains outliers that deviate significantly from the underlying plane. As a result, the sample covariance matrix computed in part (b) will be biased by the presence of outliers, and the eigenvectors and eigenvalues obtained from this matrix may not accurately represent the underlying plane.<br>
 -	In contrast, in part (a), the input point cloud is assumed to be noise-free, and the sample covariance matrix computed from this cloud accurately represents the underlying plane. The eigenvectors and eigenvalues obtained from this matrix accurately represent the orientation and scale of the plane, respectively.<br>
--	Therefore, in the presence of outliers, the result of plane fitting obtained from the sample covariance matrix may not accurately represent the underlying plane, and alternative methods such as RANSAC may be more appropriate to robustly estimate the plane parameters.<br>
+-	Therefore, in the presence of outliers, the result of plane fitting obtained from the sample covariance matrix may not accurately represent the underlying plane, and alternative methods such as RANSAC may be more appropriate to robustly estimate the plane parameters.<br><br>
 
 ![image](https://user-images.githubusercontent.com/98131995/234905039-d4958b2d-b470-4779-b91f-6c19f085ba3c.png)<br><br>
 
+c.	Implement the function q1  c in questions.py: fit a plane using a ransac based method. You can test your implementation by running $python hw4.py q1 c in your terminal. What are the strengths and weaknesses of each approach?<br>
+
+-	Strengths:
+  o	RANSAC is more robust to outliers compared to the other methods because it only considers a subset of points to fit the model and ignores the rest.
+  o	RANSAC can handle non-linear models and does not require the assumption of linearity.
+-	Weaknesses:
+  o	RANSAC requires more computation time because it samples points and fits the model multiple times to obtain the best result.
+  o	The parameters used in RANSAC, such as the number of iterations and the inlier threshold, need to be carefully tuned to obtain a good result.
+
+![image](https://user-images.githubusercontent.com/98131995/234906032-b4deda77-ea10-4117-b1e9-2ef3b7155b7a.png)<br><br>
 
 
 <img src="https://user-images.githubusercontent.com/98131995/234774183-aa43c871-c027-4e08-88fc-be1bba319672.png" width=50% height=50%><br><br>
