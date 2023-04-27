@@ -41,7 +41,7 @@ b. Test your plane fitting on an example with outliers by running the command $p
 
 -	The result of the plane fitting in part (b) with outliers is likely to be different from the result in part (a) without outliers. This is because in part (b), the input point cloud contains outliers that deviate significantly from the underlying plane. As a result, the sample covariance matrix computed in part (b) will be biased by the presence of outliers, and the eigenvectors and eigenvalues obtained from this matrix may not accurately represent the underlying plane.<br>
 -	In contrast, in part (a), the input point cloud is assumed to be noise-free, and the sample covariance matrix computed from this cloud accurately represents the underlying plane. The eigenvectors and eigenvalues obtained from this matrix accurately represent the orientation and scale of the plane, respectively.<br>
--	Therefore, in the presence of outliers, the result of plane fitting obtained from the sample covariance matrix may not accurately represent the underlying plane, and alternative methods such as RANSAC may be more appropriate to robustly estimate the plane parameters.<br><br>
+-	Therefore, in the presence of outliers, the result of plane fitting obtained from the sample covariance matrix may not accurately represent the underlying plane, and alternative methods such as RANSAC may be more appropriate to robustly estimate the plane parameters.<br>
 
 ![image](https://user-images.githubusercontent.com/98131995/234905039-d4958b2d-b470-4779-b91f-6c19f085ba3c.png)<br><br>
 
