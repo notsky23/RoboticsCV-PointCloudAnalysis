@@ -58,11 +58,25 @@ c.	Implement the function q1  c in questions.py: fit a plane using a ransac base
 
 ### Q2 - Sphere fitting:<br>
 
-![image](https://user-images.githubusercontent.com/98131995/234907201-5900c2df-0d34-45f8-ac4f-bb948a8b8c65.png)<br><br>
 ![image](https://user-images.githubusercontent.com/98131995/234908515-704bd325-ad01-4381-8cb5-9b2b0278b5d2.png)<br><br>
 
 ### Q3 - Cylinder fitting:<br>
 
+![image](https://user-images.githubusercontent.com/98131995/234908962-85062eb3-6c32-4836-9a0c-a81fc237f615.png)<br><br>
+
+### Q4 - ICP:<br>
+
+a. Implement the function q4 a to find the transformation matrix that aligns two point clouds given full correspondences between points in the two clouds. In other words, D and M are the same point cloud but in different poses. You can test your implementation by running: $python hw4.py q4_a<br>
+
+![image](https://user-images.githubusercontent.com/98131995/234910694-32c3ce34-8357-4fb1-9a2f-fee9ca6ee068.png)<br><br>
+
+b. Run $python hw4.py q4  b to test your implementation from part (a) on noisy data. Explain why the algorithm still works when gaussian noise is added to one of the point clouds, but does not work when the order of the points is shuffled.<br>
+
+![image](https://user-images.githubusercontent.com/98131995/234911071-39dcef61-e78a-4560-888e-d49382e20b46.png)<br><br>
+
+c. (c)	Implement the function q4 c to perform iterative closest point (ICP). Your implementation should get reasonably alignment on shuffled and noisy data: run $python hw4.py q4 c to test this.
+
+![image](https://user-images.githubusercontent.com/98131995/234911356-7850710b-0b52-432c-9fa9-380bae1755cb.png)<br><br>
 
 
 <img src="https://user-images.githubusercontent.com/98131995/234774183-aa43c871-c027-4e08-88fc-be1bba319672.png" width=50% height=50%><br><br>
