@@ -47,6 +47,9 @@ b. Test your plane fitting on an example with outliers by running the command $p
 
 c.	Implement the function q1  c in questions.py: fit a plane using a ransac based method. You can test your implementation by running $python hw4.py q1 c in your terminal. What are the strengths and weaknesses of each approach?<br>
 
+![image](https://user-images.githubusercontent.com/98131995/234912850-c1756140-af14-4998-939f-0d999e44cc95.png)<br>
+<img src="https://user-images.githubusercontent.com/98131995/234912850-c1756140-af14-4998-939f-0d999e44cc95.png" width=50% height=50%><br><br>
+
 -	Strengths:<br>
   o	RANSAC is more robust to outliers compared to the other methods because it only considers a subset of points to fit the model and ignores the rest.<br>
   o	RANSAC can handle non-linear models and does not require the assumption of linearity.<br>
@@ -74,10 +77,6 @@ b. Run $python hw4.py q4  b to test your implementation from part (a) on noisy d
 
 ![image](https://user-images.githubusercontent.com/98131995/234911071-39dcef61-e78a-4560-888e-d49382e20b46.png)<br><br>
 
-c. (c)	Implement the function q4 c to perform iterative closest point (ICP). Your implementation should get reasonably alignment on shuffled and noisy data: run $python hw4.py q4 c to test this.
+c. Implement the function q4 c to perform iterative closest point (ICP). Your implementation should get reasonably alignment on shuffled and noisy data: run $python hw4.py q4 c to test this.<br>
 
 ![image](https://user-images.githubusercontent.com/98131995/234911356-7850710b-0b52-432c-9fa9-380bae1755cb.png)<br><br>
-
-
-<img src="https://user-images.githubusercontent.com/98131995/234774183-aa43c871-c027-4e08-88fc-be1bba319672.png" width=50% height=50%><br><br>
-![image](https://user-images.githubusercontent.com/98131995/234774248-c49252f4-8ae4-4d06-8d06-47ec421bfb46.png)<br><br>
