@@ -64,11 +64,11 @@ c.	Implement the function q1  c in questions.py: fit a plane using a ransac base
 ### Q2 - Sphere fitting:<br>
 
 <img src="https://user-images.githubusercontent.com/98131995/234915503-1adf205c-a59c-4636-bf64-40aaf2bc2702.png" width=60% height=60%><br>
-
 ![image](https://user-images.githubusercontent.com/98131995/234908515-704bd325-ad01-4381-8cb5-9b2b0278b5d2.png)<br><br>
 
 ### Q3 - Cylinder fitting:<br>
 
+<img src="https://user-images.githubusercontent.com/98131995/234916175-c1933cb1-51db-45b8-84b6-0fda9aec429e.png" width=60% height=60%><br>
 ![image](https://user-images.githubusercontent.com/98131995/234908962-85062eb3-6c32-4836-9a0c-a81fc237f615.png)<br><br>
 
 ### Q4 - ICP:<br>
