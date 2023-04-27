@@ -24,3 +24,14 @@ conda create -n rss23 python=3.8 numpy scipy matplotlib
 ```shell
 conda activate rss23
 ```
+
+## Results:<br>
+
+Here are the results I got.<br>
+
+The code is included in this repo.<br><br>
+
+### Q1 - Plane fitting:<br>
+
+<img src="https://user-images.githubusercontent.com/98131995/234774183-aa43c871-c027-4e08-88fc-be1bba319672.png" width=50% height=50%><br><br>
+![image](https://user-images.githubusercontent.com/98131995/234774248-c49252f4-8ae4-4d06-8d06-47ec421bfb46.png)<br><br>
