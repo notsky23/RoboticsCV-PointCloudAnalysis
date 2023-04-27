@@ -37,6 +37,9 @@ a. Implement the function q1 a in questions.py: fit a plane by calculating the s
 
 ![image](https://user-images.githubusercontent.com/98131995/234903586-5c188424-4ae5-4bc7-a8a6-e6485ce84c8e.png)
 
+b. Test your plane fitting on an example with outliers by running the command $python q1 b. How is this different from the result in part (a) and why?
+
+
 
 <img src="https://user-images.githubusercontent.com/98131995/234774183-aa43c871-c027-4e08-88fc-be1bba319672.png" width=50% height=50%><br><br>
 ![image](https://user-images.githubusercontent.com/98131995/234774248-c49252f4-8ae4-4d06-8d06-47ec421bfb46.png)<br><br>
