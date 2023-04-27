@@ -37,7 +37,7 @@ a. Implement the function q1 a in questions.py: fit a plane by calculating the s
 
 ![image](https://user-images.githubusercontent.com/98131995/234903586-5c188424-4ae5-4bc7-a8a6-e6485ce84c8e.png)<br><br>
 
-b. Test your plane fitting on an example with outliers by running the command $python q1 b. How is this different from the result in part (a) and why?<br><br>
+b. Test your plane fitting on an example with outliers by running the command $python q1 b. How is this different from the result in part (a) and why?<br>
 
 -	The result of the plane fitting in part (b) with outliers is likely to be different from the result in part (a) without outliers. This is because in part (b), the input point cloud contains outliers that deviate significantly from the underlying plane. As a result, the sample covariance matrix computed in part (b) will be biased by the presence of outliers, and the eigenvectors and eigenvalues obtained from this matrix may not accurately represent the underlying plane.
 
