@@ -35,7 +35,6 @@ The code is included in this repo.<br><br>
 
 a. Implement the function q1 a in questions.py: fit a plane by calculating the sample mean and covariance matrix of the points. You will need to obtain the Eigen values and vectors of the covariance matrix in order to complete this question. You can test your implementation by running the command $python q1 a in your terminal.<br>
 
-![image](https://user-images.githubusercontent.com/98131995/234914301-e5f33005-4f74-41b6-b111-958280192180.png)<br>
 <img src="https://user-images.githubusercontent.com/98131995/234914301-e5f33005-4f74-41b6-b111-958280192180.png" width=50% height=50%><br><br>
 
 ![image](https://user-images.githubusercontent.com/98131995/234903586-5c188424-4ae5-4bc7-a8a6-e6485ce84c8e.png)<br><br>
