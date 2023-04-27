@@ -59,6 +59,10 @@ c.	Implement the function q1  c in questions.py: fit a plane using a ransac base
 ### Q2 - Sphere fitting:<br>
 
 ![image](https://user-images.githubusercontent.com/98131995/234907201-5900c2df-0d34-45f8-ac4f-bb948a8b8c65.png)<br><br>
+![image](https://user-images.githubusercontent.com/98131995/234908515-704bd325-ad01-4381-8cb5-9b2b0278b5d2.png)<br><br>
+
+### Q3 - Cylinder fitting:<br>
+
 
 
 <img src="https://user-images.githubusercontent.com/98131995/234774183-aa43c871-c027-4e08-88fc-be1bba319672.png" width=50% height=50%><br><br>
