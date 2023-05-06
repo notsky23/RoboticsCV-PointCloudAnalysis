@@ -26,12 +26,14 @@ conda activate rss23
 ```
 
 * The libraries we will be using are
+```shell
 1. tqdm
 2. torch
 3. torchvision
 4. pybullet
 5. numpy
 6. matplotlib
+```
 
 ## Results:<br>
 
