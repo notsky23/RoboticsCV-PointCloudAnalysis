@@ -25,7 +25,7 @@ conda create -n rss23 python=3.8 numpy scipy matplotlib
 conda activate rss23
 ```
 
-The libraries we will be using are
+The libraries we will be using are:
 ```shell
 1. tqdm
 2. torch
